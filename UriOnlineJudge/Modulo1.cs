@@ -179,7 +179,6 @@ public class ModuloIniciante
         Console.WriteLine($"{consumo.ToString("F3")} km/l");
     }
 
-
     public void Exercicio1015()
     {
         string[] valoresX = Console.ReadLine().Split(' ');
@@ -192,5 +191,14 @@ public class ModuloIniciante
         double distancia = Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2));
 
         Console.WriteLine(distancia.ToString("F4"));
+    }
+
+    public void Exercicio1016()
+    {
+        int distancia = int.Parse(Console.ReadLine());
+
+        int tempo = distancia * 2;
+
+        Console.WriteLine($"{tempo} minutos");
     }
 }
