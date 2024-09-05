@@ -10,6 +10,7 @@
         var obj = new Modulo1.ModuloIniciante();
         // obj.Exercicio1000();
         // obj.Exercicio1001();
-        obj.Exercicio1002();
+        // obj.Exercicio1002();
+        obj.Exercicio1003();
     }
 }

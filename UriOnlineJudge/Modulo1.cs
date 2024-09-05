@@ -26,4 +26,14 @@ public class ModuloIniciante
 
         Console.WriteLine($"A={area.ToString("F4")}");
     }
+
+    public void Exercicio1003()
+    {
+        int A = int.Parse(Console.ReadLine());
+        int B = int.Parse(Console.ReadLine());
+
+        int SOMA = A + B;
+
+        Console.WriteLine($"SOMA = {SOMA}");
+    }
 }
