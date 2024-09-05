@@ -16,4 +16,14 @@ public class ModuloIniciante
 
         Console.WriteLine($"X = {X}");
     }
+
+    public void Exercicio1002()
+    {
+        double n = 3.14159;
+        double raio = double.Parse(Console.ReadLine());
+
+        double area = Math.Pow(raio, 2) * n;
+
+        Console.WriteLine($"A={area.ToString("F4")}");
+    }
 }
