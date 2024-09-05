@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UriOnlineJudge")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8738a230e91d153b2a164e1c992f566e8e169604")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+687466ecb21b7a09e977661c5ddcd8822c69b7c3")]
 [assembly: System.Reflection.AssemblyProductAttribute("UriOnlineJudge")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UriOnlineJudge")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

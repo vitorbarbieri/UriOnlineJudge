@@ -147,4 +147,26 @@ public class ModuloIniciante
         Console.WriteLine($"QUADRADO: {quadrado.ToString("F3")}");
         Console.WriteLine($"RETANGULO: {retangulo.ToString("F3")}");
     }
+
+    public void Exercicio1013()
+    {
+        string[] entrada = Console.ReadLine().Split(' ');
+        int n1 = int.Parse(entrada[0]);
+        int n2 = int.Parse(entrada[1]);
+        int n3 = int.Parse(entrada[2]);
+
+        if (n1 > n2 && n1 > n3)
+        {
+            Console.WriteLine($"{n1} eh o maior");
+        }
+        else if (n2 > n3)
+        {
+            Console.WriteLine($"{n2} eh o maior");
+        }
+        else
+        {
+            Console.WriteLine($"{n3} eh o maior");
+        }
+    }
+
 }
