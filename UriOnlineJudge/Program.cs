@@ -11,6 +11,7 @@
         // obj.Exercicio1000();
         // obj.Exercicio1001();
         // obj.Exercicio1002();
-        obj.Exercicio1003();
+        // obj.Exercicio1003();
+        obj.Exercicio1004();
     }
 }

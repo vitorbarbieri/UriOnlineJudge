@@ -36,4 +36,14 @@ public class ModuloIniciante
 
         Console.WriteLine($"SOMA = {SOMA}");
     }
+
+    public void Exercicio1004()
+    {
+        int A = int.Parse(Console.ReadLine());
+        int B = int.Parse(Console.ReadLine());
+
+        int PROD = A * B;
+
+        Console.WriteLine($"PROD = {PROD}");
+    }
 }
