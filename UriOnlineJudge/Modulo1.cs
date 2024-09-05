@@ -91,4 +91,15 @@ public class ModuloIniciante
         Console.WriteLine($"NUMBER = {id}");
         Console.WriteLine($"SALARY = U$ {salario.ToString("F2")}");
     }
+
+    public void Exercicio1009()
+    {
+        string nome = Console.ReadLine();
+        double salario = double.Parse(Console.ReadLine());
+        double vendas = double.Parse(Console.ReadLine());
+
+        double total  = salario + vendas * 0.15;
+
+        Console.WriteLine($"TOTAL = R$ {total.ToString("F2")}");
+    }
 }
