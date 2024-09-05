@@ -118,4 +118,13 @@ public class ModuloIniciante
 
         Console.WriteLine($"VALOR A PAGAR: R$ {valor.ToString("F2")}");
     }
+
+    public void Exercicio1011()
+    {
+        double raio = double.Parse(Console.ReadLine());
+
+        double volume = (double) 4/3 * 3.14159 * Math.Pow(raio, 3);
+
+        Console.WriteLine($"VOLUME = {volume.ToString("F3")}");
+    }
 }
