@@ -169,4 +169,14 @@ public class ModuloIniciante
         }
     }
 
+    public void Exercicio1014()
+    {
+        int distancia = int.Parse(Console.ReadLine());
+        double valorLitro = double.Parse(Console.ReadLine());
+
+        double consumo = distancia / valorLitro;
+
+        Console.WriteLine($"{consumo.ToString("F3")} km/l");
+    }
+
 }
