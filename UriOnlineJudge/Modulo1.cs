@@ -179,4 +179,18 @@ public class ModuloIniciante
         Console.WriteLine($"{consumo.ToString("F3")} km/l");
     }
 
+
+    public void Exercicio1015()
+    {
+        string[] valoresX = Console.ReadLine().Split(' ');
+        double x1 = double.Parse(valoresX[0]);
+        double y1 = double.Parse(valoresX[1]);
+        string[] valoresY = Console.ReadLine().Split(' ');
+        double x2 = double.Parse(valoresY[0]);
+        double y2 = double.Parse(valoresY[1]);
+
+        double distancia = Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2));
+
+        Console.WriteLine(distancia.ToString("F4"));
+    }
 }
