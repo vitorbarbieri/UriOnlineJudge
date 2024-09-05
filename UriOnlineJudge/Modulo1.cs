@@ -75,7 +75,7 @@ public class ModuloIniciante
         int C = int.Parse(Console.ReadLine());
         int D = int.Parse(Console.ReadLine());
 
-        int DIFERENCA  = (A * B - C * D);
+        int DIFERENCA = (A * B - C * D);
 
         Console.WriteLine($"DIFERENCA = {DIFERENCA}");
     }
@@ -86,7 +86,7 @@ public class ModuloIniciante
         int horas = int.Parse(Console.ReadLine());
         double valor = double.Parse(Console.ReadLine());
 
-        double salario  = horas * valor;
+        double salario = horas * valor;
 
         Console.WriteLine($"NUMBER = {id}");
         Console.WriteLine($"SALARY = U$ {salario.ToString("F2")}");
@@ -98,8 +98,24 @@ public class ModuloIniciante
         double salario = double.Parse(Console.ReadLine());
         double vendas = double.Parse(Console.ReadLine());
 
-        double total  = salario + vendas * 0.15;
+        double total = salario + vendas * 0.15;
 
         Console.WriteLine($"TOTAL = R$ {total.ToString("F2")}");
+    }
+
+    public void Exercicio1010()
+    {
+        double valor = 0;
+        for (int i = 0; i < 2; i++)
+        {
+            string[] entrada = Console.ReadLine().Split(' ');
+            int codigo = int.Parse(entrada[0]);
+            int quantidade = int.Parse(entrada[1]);
+            double valorUnitario = double.Parse(entrada[2]);
+
+            valor += quantidade * valorUnitario;
+        }
+
+        Console.WriteLine($"VALOR A PAGAR: R$ {valor.ToString("F2")}");
     }
 }
