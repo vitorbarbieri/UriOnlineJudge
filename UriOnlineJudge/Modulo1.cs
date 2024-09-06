@@ -253,4 +253,19 @@ public class ModuloIniciante
 
         Console.WriteLine($"{horas}:{minutos}:{segundos}");
     }
+
+    public void Exercicio1020()
+    {
+        int idade = int.Parse(Console.ReadLine());
+
+        int anos = idade / 365;
+        idade -= anos * 365;
+        int meses = idade / 30;
+        idade -= meses * 30;
+        int dias = idade;
+
+        Console.WriteLine($"{anos} ano(s)");
+        Console.WriteLine($"{meses} mes(es)");
+        Console.WriteLine($"{dias} dia(s)");
+    }
 }
