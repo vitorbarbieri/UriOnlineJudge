@@ -212,4 +212,32 @@ public class ModuloIniciante
 
         Console.WriteLine(litros.ToString("F3"));
     }
+
+    public void Exercicio1018()
+    {
+        int valor = int.Parse(Console.ReadLine());
+
+        int nota100 = valor / 100;
+        int quantidade = valor - 100 * nota100;
+        int nota50 = quantidade / 50;
+        quantidade -= 50 * nota50;
+        int nota20 = quantidade / 20;
+        quantidade -= 20 * nota20;
+        int nota10 = quantidade / 10;
+        quantidade -= 10 * nota10;
+        int nota5 = quantidade / 5;
+        quantidade -= 5 * nota5;
+        int nota2 = quantidade / 2;
+        quantidade -= 2 * nota2;
+        int nota1 = quantidade;
+
+        Console.WriteLine(valor);
+        Console.WriteLine($"{nota100} nota(s) de R$ 100,00");
+        Console.WriteLine($"{nota50} nota(s) de R$ 50,00");
+        Console.WriteLine($"{nota20} nota(s) de R$ 20,00");
+        Console.WriteLine($"{nota10} nota(s) de R$ 10,00");
+        Console.WriteLine($"{nota5} nota(s) de R$ 5,00");
+        Console.WriteLine($"{nota2} nota(s) de R$ 2,00");
+        Console.WriteLine($"{nota1} nota(s) de R$ 1,00");
+    }
 }
