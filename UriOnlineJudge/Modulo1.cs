@@ -201,4 +201,15 @@ public class ModuloIniciante
 
         Console.WriteLine($"{tempo} minutos");
     }
+
+    public void Exercicio1017()
+    {
+        int tempo = int.Parse(Console.ReadLine());
+        int velocidade = int.Parse(Console.ReadLine());
+
+        double distancia = (double) velocidade * tempo;
+        double litros = distancia / 12;
+
+        Console.WriteLine(litros.ToString("F3"));
+    }
 }
