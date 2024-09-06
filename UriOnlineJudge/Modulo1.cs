@@ -240,4 +240,17 @@ public class ModuloIniciante
         Console.WriteLine($"{nota2} nota(s) de R$ 2,00");
         Console.WriteLine($"{nota1} nota(s) de R$ 1,00");
     }
+
+    public void Exercicio1019()
+    {
+        int tempo = int.Parse(Console.ReadLine());
+
+        int horas = tempo / (60 * 60);
+        tempo -= horas * 60 * 60;
+        int minutos = tempo / 60;
+        tempo -= minutos * 60;
+        int segundos = tempo;
+
+        Console.WriteLine($"{horas}:{minutos}:{segundos}");
+    }
 }

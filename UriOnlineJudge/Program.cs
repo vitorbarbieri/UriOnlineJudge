@@ -26,6 +26,7 @@
         // obj.Exercicio1015();
         // obj.Exercicio1016();
         // obj.Exercicio1017();
-        obj.Exercicio1018();
+        // obj.Exercicio1018();
+        obj.Exercicio1019();
     }
 }
